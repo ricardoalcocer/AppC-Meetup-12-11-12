@@ -1,0 +1,57 @@
+<Alloy>
+	<Window class="container">
+		<View id="menu" onClick="hidemenu"></View>
+		<View id="main">
+			<View id="iconBar">
+				<View id="topActions">
+						<ImageView class="topActionButton" id="friendsBtn"></ImageView>
+						<ImageView class="topActionButton" id="messagesBtn"></ImageView>
+						<ImageView class="topActionButton" id="notificationsBtn"></ImageView>
+				</View>
+				<ImageView id="menubtn" onClick="showmenu"></ImageView>
+				<ImageView id="chatbtn"></ImageView>
+			</View>
+			<View id="menuBar">
+				<View class="tbButton">
+					<ImageView id="statusBtn"></ImageView>
+				</View>
+				<View  class="tbButton">
+					<ImageView id="photoBtn"></ImageView>
+				</View>
+				<View  class="tbButton">
+					<ImageView id="checkinBtn"></ImageView>
+				</View>
+			</View>
+			<View id="grayLine"></View>
+			<TableView id="mainList">
+				<TableViewRow id="listRow">
+					<View id="rowContainer">
+						<ImageView id="profilePic"></ImageView>
+						<Label id="profileName">Ricardo Alcocer</Label>
+						<Label id="timeAgo">10 minutes ago</Label>
+						<Label id="status">This is my status update.</Label>
+						<View id="grayLine" bottom="51"></View>
+						<View id="bottomActions">
+							<View class="itemActionButton">
+								<ImageView id="likeBtn"></ImageView>
+							</View>
+							<View  class="itemActionButton">
+								<ImageView id="commentBtn"></ImageView>
+							</View>
+						</View>
+					</View>
+				</TableViewRow>
+				<TableViewRow id="listRow">
+					<View id="rowContainer">
+						<ImageView id="profilePic"></ImageView>
+						<Label id="profileName">Ricardo Alcocer</Label>
+						<Label id="timeAgo">10 minutes ago</Label>
+						<Label id="status">I'm writing some XML markup to be used on a Mobile App.</Label>
+						<View id="grayLine" bottom="51"></View>
+						<View id="bottomActions"></View>
+					</View>
+				</TableViewRow>
+			</TableView>
+		</View>
+	</Window>
+</Alloy>
