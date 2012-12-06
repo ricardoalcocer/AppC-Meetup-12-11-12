@@ -5,7 +5,7 @@ This is the code for the December 11, 2012 Appcelerator Silicon Valley Meetup.
 
 The describes how to build Allow XML Markup, trying to replicate the look-and-feel of the Facebook App for Android.  The graphics used are screenshots from the App and the artwork belongs to them.  This is only an experiment in replicating the UI of the App.
 
-![Screenshot](http://goo.gl/y0gka "Screenshot")
+![Screenshot](http://ricardoalcocer.com/_drops/Screen%20Shot%202012-12-06%20at%2011.05.52%20AM.png)
 
 Feel free to fork, clone or copy-paste the code.  I hope it helps you understand better the awesomeness of Allow, the MVC Framework for Titanium.
 
