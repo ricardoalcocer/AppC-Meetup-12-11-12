@@ -1,3 +1,7 @@
+function testclick(e){
+	alert('Clicked');
+}
+
 function showmenu(e){
 	$.main.width=Ti.Platform.displayCaps.platformWidth;
 	$.main.animate({

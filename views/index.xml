@@ -4,22 +4,22 @@
 		<View id="main">
 			<View id="iconBar">
 				<View id="topActions">
-						<ImageView class="topActionButton" id="friendsBtn"></ImageView>
-						<ImageView class="topActionButton" id="messagesBtn"></ImageView>
-						<ImageView class="topActionButton" id="notificationsBtn"></ImageView>
+						<ImageView class="topActionButton" id="friendsBtn" onClick="testclick"></ImageView>
+						<ImageView class="topActionButton" id="messagesBtn" onClick="testclick"></ImageView>
+						<ImageView class="topActionButton" id="notificationsBtn" onClick="testclick"></ImageView>
 				</View>
 				<ImageView id="menubtn" onClick="showmenu"></ImageView>
-				<ImageView id="chatbtn"></ImageView>
+				<ImageView id="chatbtn" onClick="testclick"></ImageView>
 			</View>
 			<View id="menuBar">
 				<View class="tbButton">
-					<ImageView id="statusBtn"></ImageView>
+					<ImageView id="statusBtn" onClick="testclick"></ImageView>
 				</View>
 				<View  class="tbButton">
-					<ImageView id="photoBtn"></ImageView>
+					<ImageView id="photoBtn" onClick="testclick"></ImageView>
 				</View>
 				<View  class="tbButton">
-					<ImageView id="checkinBtn"></ImageView>
+					<ImageView id="checkinBtn" onClick="testclick"></ImageView>
 				</View>
 			</View>
 			<View id="grayLine"></View>
@@ -33,10 +33,10 @@
 						<View id="grayLine" bottom="51"></View>
 						<View id="bottomActions">
 							<View class="itemActionButton">
-								<ImageView id="likeBtn"></ImageView>
+								<ImageView id="likeBtn" onClick="testclick"></ImageView>
 							</View>
 							<View  class="itemActionButton">
-								<ImageView id="commentBtn"></ImageView>
+								<ImageView id="commentBtn" onClick="testclick"></ImageView>
 							</View>
 						</View>
 					</View>
