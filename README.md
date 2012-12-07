@@ -15,5 +15,7 @@ Enjoy!
 Ricardo Alcocer
 
 Platform Evangelist
+
 Appcelerator, Inc.
+
 ralcocer@appcelerator.com
