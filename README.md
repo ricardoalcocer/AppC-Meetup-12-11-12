@@ -3,7 +3,7 @@ Creating a Facebook-like UI using Alloy and Titanium
 
 This is the code for the December 11, 2012 Appcelerator Silicon Valley Meetup.
 
-The describes how to build Allow XML Markup, trying to replicate the look-and-feel of the Facebook App for Android.  The graphics used are screenshots from the App and the artwork belongs to them.  This is only an experiment in replicating the UI of the App.
+The describes how to build Allow XML Markup, trying to replicate the look-and-feel of the Facebook App for Android.  The graphics used are screenshots from the App and the artwork belongs to them (Facebook).  This is only an experiment in replicating the UI of the App.
 
 ![Screenshot](http://goo.gl/y0gka)
 
@@ -15,8 +15,5 @@ Enjoy!
 Ricardo Alcocer
 
 Platform Evangelist
-
 Appcelerator, Inc.
-
-http://myqrkode.com/c/ricardoalcocer
-
+ralcocer@appcelerator.com
