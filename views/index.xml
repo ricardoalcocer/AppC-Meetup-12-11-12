@@ -1,6 +1,6 @@
 <Alloy>
 	<Window class="container">
-		<View id="menu" onClick="hidemenu"></View>
+		<View id="menu" onClick="showhidemenu"></View>
 		<View id="main">
 			<View id="iconBar">
 				<View id="topActions">
@@ -8,7 +8,7 @@
 						<ImageView class="topActionButton" id="messagesBtn" onClick="testclick"></ImageView>
 						<ImageView class="topActionButton" id="notificationsBtn" onClick="testclick"></ImageView>
 				</View>
-				<ImageView id="menubtn" onClick="showmenu"></ImageView>
+				<ImageView id="menubtn" onClick="showhidemenu"></ImageView>
 				<ImageView id="chatbtn" onClick="testclick"></ImageView>
 			</View>
 			<View id="menuBar">
@@ -33,7 +33,7 @@
 						<View id="grayLine" bottom="51"></View>
 						<View id="bottomActions">
 							<View class="itemActionButton">
-								<ImageView id="likeBtn" onClick="testclick"></ImageView>
+								<ImageView id="likeBtn" onClick="likeunlike"></ImageView>
 							</View>
 							<View  class="itemActionButton">
 								<ImageView id="commentBtn" onClick="testclick"></ImageView>
@@ -48,7 +48,14 @@
 						<Label id="timeAgo">10 minutes ago</Label>
 						<Label id="status">I'm writing some XML markup to be used on a Mobile App.</Label>
 						<View id="grayLine" bottom="51"></View>
-						<View id="bottomActions"></View>
+						<View id="bottomActions">
+							<View class="itemActionButton">
+								<ImageView id="likeBtn" onClick="likeunlike"></ImageView>
+							</View>
+							<View  class="itemActionButton">
+								<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							</View>
+						</View>
 					</View>
 				</TableViewRow>
 			</TableView>

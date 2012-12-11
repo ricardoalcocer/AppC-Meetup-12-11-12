@@ -69,7 +69,7 @@
 },
 "#rowContainer":{
 	borderColor: "#cacdd8",
-	borderRadius: 5,
+	borderRadius: 3,
 	borderWidth: 1,
 	left: "5",
 	right: "5",
