@@ -21,32 +21,34 @@
 	left: 0	
 },
 "#iconBar":{
-	backgroundImage: "iconBarBG.png",
+	backgroundImage: "/iconBarBG.png",
 	width: Ti.UI.FILL,
-	height: "54"
+	height: "54dp",
+	border: 1,
+	borderColor: "navy"
 },
 "#topActions":{
-	width:"150",
-	height:"50",
+	width:"150dp",
+	height:"50dp",
 	layout:"horizontal"
 },
 ".topActionButton":{
-	 height:"50",
-	 width:"50"
+	 height:"50dp",
+	 width:"50dp"
 },
 "#friendsBtn":{
-	image:"friendsbtn.png" 
+	image:"/friendsbtn.png" 
 },
 "#messagesBtn":{
-	image:"messagesbtn.png" 
+	image:"/messagesbtn.png" 
 },
 "#notificationsBtn":{
-	image:"notificationsbtn.png" 
+	image:"/notificationsbtn.png" 
 },
 "#menuBar":{
 	backgroundColor: "#f5f6f9",
 	width: Ti.UI.FILL,
-	height: "50",
+	height: "50dp",
 	layout: "horizontal"
 },
 "#blackLine":{
@@ -64,43 +66,44 @@
 	separatorStyle: "NONE"
 },
 "#listRow":{
-	height: "200",
-	selectionStyle: "NONE"
+	height: "200dp",
+	selectionStyle: "NONE",
+	className:"listRow"
 },
+
 "#rowContainer":{
 	borderColor: "#cacdd8",
 	borderRadius: 3,
 	borderWidth: 1,
-	left: "5",
-	right: "5",
-	top: "5",
-	bottom: "5",
-	height: Ti.UI.FILL,
+	left: "5dp",
+	top: "5dp",
+	right: "5dp",
+	height: "190dp",
 	width: Ti.UI.FILL,
 	backgroundColor: "#fff"
 },
 "#profilePic":{
-	 width:"66",
-	 height:"66",
-	 image:"profilepic.png",
-	 top:"5",
-	 left:"5"
+	 width:"66dp",
+	 height:"66dp",
+	 image:"/profilepic.png",
+	 top:"5dp",
+	 left:"5dp"
 },
 "#profileName":{
-	top: "5",
-	left: "80",
+	top: "5dp",
+	left: "80dp",
 	color: "#576b95",
 	font: {
-		fontSize : "16",
+		fontSize : "16dp",
 		fontWeight: "bold"
 	}
 },
 "#timeAgo":{
-	top: "25",
-	left: "80",
+	top: "25dp",
+	left: "80dp",
 	color: "#bbbbbb",
 	font: {
-		fontSize : "16"
+		fontSize : "16dp"
 	}
 },
 "#status":{
@@ -108,58 +111,58 @@
 	left: 5,
 	right: 5,
 	font: {
-		fontSize : "16"
+		fontSize : "16dp"
 	}
 },
 "#bottomActions":{
 	bottom: 0,
-	height: "50",
+	height: "50dp",
 	width: Ti.UI.FILL,
 	backgroundColor: "#eff2f5",
 	layout: "horizontal"
 },
 ".itemActionButton":{
 	width: "50%",
-	height: "50"
+	height: "50dp"
 },
 "#likeBtn":{
-	width: "76",
-	height: "20",
-	image: "likebtn.png"
+	width: "76dp",
+	height: "20dp",
+	image: "/likebtn.png"
 },
 "#commentBtn":{
-	width: "76",
-	height: "20",
-	image: "commentbtn.png"
+	width: "76dp",
+	height: "20dp",
+	image: "/commentbtn.png"
 },
 ".tbButton":{
 	width: "33%",
-	height: "50"
+	height: "50dp"
 },
 "#statusBtn":{
-	width: "73",
-	height: "19",
-	image: "statusbtn.png"
+	width: "73dp",
+	height: "19dp",
+	image: "/statusbtn.png"
 },
 "#photoBtn":{
-	width: "73",
-	height: "19",
-	image: "photobtn.png"
+	width: "73dp",
+	height: "19dp",
+	image: "/photobtn.png"
 },
 "#checkinBtn":{
-	width: "73",
-	height: "19",
-	image: "checkinbtn.png"
+	width: "73dp",
+	height: "19dp",
+	image: "/checkinbtn.png"
 },
 "#menubtn":{
 	left: 0,
-	width: "55",
-	height: "54",
-	image:"menubtn.png"
+	width: "55dp",
+	height: "54dp",
+	image:"/menubtn.png"
 },
 "#chatbtn":{
-	width: "55",
-	height: "54",
+	width: "55dp",
+	height: "54dp",
 	right: 0,
-	image:"chatbtn.png"
+	image:"/chatbtn.png"
 }
