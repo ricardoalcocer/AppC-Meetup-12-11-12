@@ -6,17 +6,18 @@ function testclick(e){
 // handles the "Like button"
 function likeunlike(e){
 	// change like/unlike image, based on the current image
-	if (e.source.image==="likebtn.png"){
-		e.source.image="likebtnOn.png"
+	if (e.source.image==="/likebtn.png"){
+		e.source.image="/likebtnOn.png"
 	}else{
-		e.source.image="likebtn.png"
+		e.source.image="/likebtn.png"
 	}
 }
 
 // shows or hide the menu
+var menuOpen = false;
 function showhidemenu(e){
 	var moveTo=0;
-	if ($.main.rect.left==0) moveTo=300;
+	!menuOpen && (moveTo="300dp");
 	
 	// have to set the current width of the "main" view before moving it so it doesn't get squeezed
 	// try commenting out the following line and setting the "newLeft" to 200 instead of 
