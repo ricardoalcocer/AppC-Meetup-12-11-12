@@ -58,6 +58,23 @@
 						</View>
 					</View>
 				</TableViewRow>
+				<TableViewRow id="listRow">
+					<View id="rowContainer">
+						<ImageView id="profilePic"></ImageView>
+						<Label id="profileName">Ricardo Alcocer</Label>
+						<Label id="timeAgo">10 minutes ago</Label>
+						<Label id="status">I'm writing some XML markup to be used on a Mobile App.</Label>
+						<View id="grayLine" bottom="51"></View>
+						<View id="bottomActions">
+							<View class="itemActionButton">
+								<ImageView id="likeBtn" onClick="likeunlike"></ImageView>
+							</View>
+							<View  class="itemActionButton">
+								<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							</View>
+						</View>
+					</View>
+				</TableViewRow>
 			</TableView>
 		</View>
 	</Window>
