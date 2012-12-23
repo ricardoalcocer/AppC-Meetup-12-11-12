@@ -16,8 +16,13 @@ function likeunlike(e){
 // shows or hide the menu
 var menuOpen = false;
 function showhidemenu(e){
-	var moveTo=0;
-	!menuOpen && (moveTo="300dp");
+	if (!menuOpen){
+		moveTo="300dp";
+		menuOpen=true;
+	}else{
+		moveTo="0";
+		menuOpen=false;
+	}
 	
 	// have to set the current width of the "main" view before moving it so it doesn't get squeezed
 	// try commenting out the following line and setting the "newLeft" to 200 instead of 
